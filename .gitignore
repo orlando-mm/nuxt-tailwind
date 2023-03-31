@@ -1,0 +1,6 @@
+.nuxt
+node_modules
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/nuxt-tailwind.iml
+/.idea/vcs.xml
