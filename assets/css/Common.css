@@ -1,0 +1,15 @@
+@layer components {
+  .button-secondary {
+    @apply bg-gray-dark w-[250px]
+        sm:w-[344px] h-[64px]
+        rounded-[8px] px-[56px];
+  }
+  .button-secondary--hover {
+    @apply hover:shadow-lg transition ease-in-out;
+  }
+  .button-secondary--text {
+    @apply text-white text-[18px]
+        font-bold leading-[24.59px]
+        tracking-[2.25px] uppercase;
+  }
+}

@@ -1,5 +1,21 @@
 <template>
-  <h1 class="text-3xl font-bold underline text-red-700">
-    Hello world!
-  </h1>
+  <div class="font-manrope">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  titleTemplate: (title = '') => {
+    return title ? `CUBAMAX | ${title}` : 'CUBAMAX';
+  },
+  meta: [
+    {
+      name: 'description',
+      content: 'Increíble aplicación de ayuda para cubanos'
+    }
+  ]
+});
+</script>

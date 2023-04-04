@@ -1,0 +1,44 @@
+@layer components {
+  .footer__botton-text {
+    @apply text-gray-dark text-[18px]
+        font-normal leading-[25px];
+  }
+  .footer__grid-botton-text {
+    @apply grid grid-cols-1
+        lg:grid-cols-2 text-center
+        lg:text-start;
+  }
+  .footer__find-job__container {
+    @apply w-full border-solid
+        border rounded-[8px]
+        flex flex-col 2xl:flex-row
+        justify-between items-center
+        xl:px-24 py-10 lg:py-24;
+  }
+  .footer__find-job__text {
+    @apply text-gray-dark text-[20px]
+        sm:text-[43.7px] lg:text-5xl font-bold
+        leading-[55px] lg:leading-[60px];
+  }
+  .footer__team-text {
+    @apply text-gray-dark text-[20px]
+        sm:text-[32.8px] lg:text-[36px]
+        font-normal leading-[36.4px]
+        lg:leading-[60px];
+  }
+  .footer__quiet__text {
+    @apply text-primary text-[30px]
+        font-medium leading-[41px];
+  }
+  .footer__quiet__container {
+    @apply flex flex-col
+        sm:flex-row items-baseline
+        justify-center my-[61px]
+        md:my-[121px] max-w-6xl;
+  }
+  .footer__row-icons-text {
+    @apply uppercase mb-6
+        text-gray-dark text-[20px]
+        font-normal leading-[18px];
+  }
+}

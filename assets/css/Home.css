@@ -1,0 +1,96 @@
+@layer components {
+  .home__beach {
+    @apply bg-[url('~/assets/images/beach.svg')] bg-cover
+    w-full h-full pt-4 md:pt-[62px] pb-36;
+  }
+  .home__beach__grid-container {
+    @apply grid grid-cols-1
+    sm:grid-cols-2 lg:grid-cols-3
+    xl:grid-cols-4 justify-items-center
+    mx-[53px] lg:mx-64 gap-[43px] md:gap-[104px];
+  }
+  .home__beach__tracking-bar-container {
+    @apply flex justify-end mx-[29px] md:mx-[72px] mb-[108px];
+  }
+  .home__beach__phone-bar-container {
+    @apply mx-[29px] md:mx-[72px] mb-[74px];
+  }
+  .home__beach__card-container {
+    @apply w-[243px] h-[243px] bg-white 
+    rounded-lg border-solid border 
+    border-black flex items-center justify-center;
+  }
+  .home__beach__card-container-internal {
+    @apply flex flex-col items-center h-[154.7px] justify-between;
+  }
+  .home__beach__card--text {
+    @apply text-gray-dark text-[30px] font-bold leading-[41px];
+  }
+  .home__city {
+    @apply bg-[url('~/assets/images/city.svg')] bg-cover 
+        bg-center w-full h-[500px] md:h-[600px];
+  }
+  .home__city__container {
+    @apply flex justify-center md:justify-normal mx-12 lg:mx-64;
+  }
+  .home__city__card {
+    @apply bg-yellow sm:w-[484px] h-[510px] 
+    sm:h-[410px] md:w-[597px] md:h-[506px] 
+    p-12 md:p-14 rounded-[6.49px] md:rounded-[8px] 
+    flex flex-col items-center justify-between 
+    opacity-[0.85] z-10 absolute top-[2800px] 
+    sm:top-[1695px] md:top-[1995px] lg:top-[1650px] 
+    xl:top-[1300px] xl:ml-24 2xl:ml-0;
+  }
+  .home__city__card--text {
+    @apply text-gray-dark text-[40px] md:text-[48px] 
+    font-light leading-[60px];
+  }
+  .home__city__button__container {
+    @apply w-[69.72px] md:w-[86px] h-[69.68px] md:h-[86px]
+    border-solid border rounded-[6.49px] md:rounded-[8px] pt-1 md:pt-4;
+  }
+  .home__city__button--text {
+    @apply text-gray-dark text-[40px] md:text-[48px] 
+        font-bold leading-[65.57px];
+  }
+  .home__mobile {
+    @apply grid grid-cols-1 2xl:grid-cols-2 
+    justify-items-center mx-[53px] lg:mx-64 pt-28 items-center;
+  }
+  .home__mobile__stores {
+    @apply w-full sm:w-[626px] h-[269px] flex flex-col;
+  }
+  .home__mobile__img {
+    @apply bg-[url('~/assets/images/movil.svg')] bg-cover
+    bg-top w-full h-[300px] sm:h-[500px] md:h-[800px]
+    lg:h-[700px] xl:h-[900px] 2xl:h-[600px];
+  }
+  .home__mobile__stores__visit-container {
+    @apply flex justify-center px-10 lg:px-0;
+  }
+  .home__mobile__stores__buttons-container {
+    @apply flex flex-col sm:flex-row justify-between 
+    px-10 lg:px-0 py-1 sm:py-10;
+  }
+  .home__mobile__stores__visit--text {
+    @apply text-center xl:text-start text-gray-dark text-[18px] sm:text-[39px] 
+    md:text-[48px] font-normal leading-[60px];
+  }
+  .home__mobile__store-button {
+    @apply w-[249.51px] lg:w-[305px] h-[71.13px] md:h-[87px] border rounded-[6.5px];
+  }
+  .home__mobile__store-button--hover {
+    @apply hover:shadow-lg transition ease-in-out;
+  }
+  .home__mobile__store-button__container-internal {
+    @apply flex flex-row items-center pr-6;
+  }
+  .home__mobile__store-button__img {
+    @apply w-[81px] h-[45px];
+  }
+  .home__mobile__store-button--text {
+    @apply text-gray-dark text-[20px] md:text-[24px] font-bold 
+    leading-[27.32px] md:leading-[32.78px];
+  }
+}

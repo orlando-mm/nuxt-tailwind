@@ -1,0 +1,51 @@
+@layer components {
+  .navbar__tracking__container {
+    @apply flex justify-end
+        mx-[29px] md:mx-[72px] my-5;
+  }
+  .navbar__tracking__container-internal {
+    @apply flex flex-row justify-between 
+    w-[310px] h-[37];
+  }
+  .navbar__tracking__container-text {
+    @apply flex flex-row items-center 
+    hover:opacity-70 transition ease-in-out;
+  }
+  .navbar__tracking__text {
+    @apply flex flex-col text-right 
+        text-gray-dark text-[20px] 
+        font-medium leading-[18px] mr-[10px];
+  }
+  .navbar__bar-phone__container {
+    @apply flex justify-end
+        mx-[29px] md:mx-[72px] mt-[46px];
+  }
+  .navbar__phone-text {
+    @apply text-[18px] text-gray-dark 
+        font-medium leading-[24.59px];
+  }
+  .navbar__bar-options__container {
+    @apply flex flex-col
+        sm:flex-row justify-between
+        items-end mx-[29px] md:mx-[72px] mb-11;
+  }
+  .navbar__bar-options__container-internal {
+    @apply flex flex-row items-end justify-between w-[275px];
+  }
+  .navbar__bar-options--text {
+    @apply flex flex-col text-right 
+        md:text-center text-gray-dark 
+        text-[20px] font-medium leading-[18px];
+  }
+  .navbar__bar-options__img--hover {
+    @apply hover:shadow-xl transition ease-in-out;
+  }
+  .navbar__bar-options__shopping-bag__container {
+    @apply bg-[url('~/assets/icons/shopping-bag.svg')] 
+    w-[44px] h-[59px] flex items-center justify-center;
+  }
+  .navbar__bar-options__shopping-bag--text {
+    @apply text-white text-[30.6px] 
+        font-medium leading-[41.8px] pt-4;
+  }
+}
